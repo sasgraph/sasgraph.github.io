@@ -1,0 +1,262 @@
+*{
+box-sizing: border-box;
+}
+/*Title Font: Montserrat - Google Fonts*/
+body {
+font-family: "Montserrat", Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+}
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.display {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    margin: 60px;
+    color: #ffffff;
+    text-align: center;  
+}
+/* Content styles */
+.bg-container {
+    width: 100%;
+    background-color:#3626A7;
+    display: flex;
+}
+.content {
+    max-width: 1200px;
+    margin: 40 auto;
+    padding: 40px;
+}
+
+/* Color Palette Styles */
+.color-container {
+    display: inline-flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+/* Primary, secondary and tertiary colors */
+.color-label{
+    font-size: 16px;
+    text-align: center;
+    display:block;
+    color:white;
+    top: 50%;
+}
+.color-hex{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 4px;
+    color:white;
+    display:block;
+}
+.color-swatch-burgundy {
+    background-color: #331E36;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.color-swatch-saturn {
+    background-color:#3626A7;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.color-swatch-sunset {
+    background-color: #EFA00B;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Neutral colors */
+.color-label-dark{
+    font-size: 16px;
+    text-align: center;
+    display:block;
+    color:#333;
+    top: 50%;
+}
+.color-hex-dark{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 4px;
+    color:#333;
+    display:block;
+}
+.color-swatch-forrest {
+    background-color: #CADBC8;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.color-swatch-dunes {
+    background-color: #E2D4B7;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.color-swatch-snow {
+    background-color: #FBFBFF;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+    font-weight: 600;
+}
+/* Typography Styles */
+.typography-container {
+    margin-top: 80px;
+}
+.typography-label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333333;
+}
+.Heading1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #333333;         
+}
+.Heading2{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #333333;         
+}
+.Heading3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #333333; 
+    margin-top:40px;        
+}
+.Body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    margin-top:40px;        
+}
+.Caption{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333; 
+    margin-top:40px;
+    margin-bottom:40px;        
+}
+/* Button Styles */
+.button-container {
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+.primary-button {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 12px;
+    background-color: #3626A7;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.primary-button:hover {
+    background-color: #09071a;
+}
+.secondary-button {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 12px;
+    background-color: #EFA00B;
+    color: #333333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+.secondary-button:hover {
+    background-color: #b37404;
+}
+.tertiary-button {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 12px;
+    background-color: #FBFBFF;
+    color: #333333;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+.tertiary-button:hover {
+    background-color: #e0e0e0;
+}
+/* Form Element Styles */
+.form-container {
+    margin-top: 40px;
+    margin-bottom:40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+}   
+.text-input, .select-input {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid #CCCCCC;
+}
+.text-input:focus, .select-input:focus {
+    border-color: #3626A7;
+    outline: none;
+}
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.checkbox{
+    width: 24px;
+    height: 24px;
+    display:inline-block; 
+}
+.radio{
+    width: 24px;
+    height: 24px;   
+}
+.radio-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.select-dropdown {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid #CCCCCC;
+    background-color: #FFFFFF;
+}
+.select-input:focus {
+    border-color: #3626A7;
+    outline: none;
+}
+
+
